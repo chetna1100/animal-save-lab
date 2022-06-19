@@ -14,9 +14,17 @@ html {
 
 #dolphin {
   position: absolute;
-  top: 400px;
+  top: 200px;
   right: 0;
+  transform: skew(30deg, 20deg);
+}
+/* Write your solution here */
+@media screen and (min-width:642px) and (max-width:1024px) {
+  #dolphin {
+     left: 575;
+    transform: skew(30deg, 20deg);
+  }
 }
 
-/* Write your solution here */
+
 
